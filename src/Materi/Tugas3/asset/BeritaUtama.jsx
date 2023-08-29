@@ -85,7 +85,7 @@ export default class BeritaUtama extends React.Component{
 
         console.log('DID MOUNT')
    
-        fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-07-29&sortBy=publishedAt&apiKey=90200d1c141f4f228498fe02a314a390")
+        fetch("https://newsapi.org/v2/everything?q=from=2023-07-29&sortBy=publishedAt&apiKey=90200d1c141f4f228498fe02a314a390")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
