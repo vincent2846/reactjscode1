@@ -1,15 +1,16 @@
 
 import './App.css';
-import Lifecycle from './Materi/Lifecycle';
-import Tugas3 from './Materi/Tugas3';
+import Hooks from './Materi/Hooks';
+import Tugas4 from './Materi/Tugas4';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Lifecycle /> */}
-      <Tugas3 />
+      {/* <Hooks /> */}
+      <Tugas4 />
     </div>
   );
 }
 
-export default App;
+export default App; 

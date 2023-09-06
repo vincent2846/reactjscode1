@@ -1,0 +1,26 @@
+
+.cardcontainer .card {
+    display: grid;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    font-family: roboto;
+    text-align: center;
+}
+
+
+.card-stats {
+    grid-area: stats;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px;
+}
+
