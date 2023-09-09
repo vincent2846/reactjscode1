@@ -30,7 +30,7 @@ const Testhook = () => {
         if(num !== null && num !== '' ){
                 console.log('GetApi')
                 // setDisplay(() => localStorage.getItem('text'));
-                fetch('https://newsapi.org/v2/everything?q='+ num +'&from=2023-08-09&sortBy=publishedAt&apiKey=90200d1c141f4f228498fe02a314a390')
+                fetch('http://newsapi.org/v2/everything?q='+ num +'&from=2023-08-09&sortBy=publishedAt&apiKey=90200d1c141f4f228498fe02a314a390')
                     .then(res => res.json())
                     .then(res => setUser(res.articles))
                     console.log(user)
@@ -41,7 +41,7 @@ const Testhook = () => {
         }else{
             console.log('GetApi empty')
                 // setDisplay(() => localStorage.getItem('text'));
-                fetch('https://newsapi.org/v2/everything?q=tesla&from=2023-08-09&sortBy=publishedAt&apiKey=90200d1c141f4f228498fe02a314a390')
+                fetch('http://newsapi.org/v2/everything?q=tesla&from=2023-08-09&sortBy=publishedAt&apiKey=90200d1c141f4f228498fe02a314a390')
                     .then(res => res.json())
                     .then(res => setUser(res.articles))
                     console.log(user)
